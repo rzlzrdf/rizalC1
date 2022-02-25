@@ -1,4 +1,68 @@
 #header .nav-menu li a {
   text-decoration: none;
 }
+
+#main {
+  overflow: hidden;
+}
+
+#main ul li {
+  list-style: none;
+  margin-left: -30px;
+}
+
+#main .hero-image {
+  width: 100%;
+  -webkit-transform: translateX(18%);
+          transform: translateX(18%);
+}
+
+#main .hero-image-2 {
+  width: 70%;
+  -webkit-transform: translateX(15%);
+          transform: translateX(15%);
+}
+
+#main #herotwo h5 {
+  text-align: justify;
+}
+
+#main #herotwo p {
+  text-align: justify;
+}
+
+#main .whyus-card {
+  padding: 20px;
+  border-radius: 8px;
+}
+
+#main .whyus-card .logo-whyus {
+  margin-bottom: 15px;
+}
+
+#main .lokasi-card {
+  background-color: darkblue;
+  border-radius: 13px;
+  width: 100%;
+  height: 326px;
+}
+
+#main .faq-card .card-body {
+  margin-top: 0px;
+  margin-bottom: 40px;
+}
+
+#main .dropdown-pertanyaan .dropdown--pertanyaan {
+  width: 100%;
+  height: 56px;
+  margin-bottom: 15px;
+  text-align: start;
+  padding-left: 20px;
+}
+
+#footer .link-footer {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
 /*# sourceMappingURL=style.css.map */
