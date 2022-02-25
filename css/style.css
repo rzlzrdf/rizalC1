@@ -67,24 +67,68 @@
   }
 }
 
-#main .review-card {
-  width: 619px;
-  height: 270px;
-  border: 2px;
-  border-color: gray;
+#main #testimonial .tombol-geser {
+  position: relative;
 }
 
-#main .lokasi-card {
-  background-color: darkblue;
-  border-radius: 13px;
-  width: 100%;
-  height: 326px;
+#main #testimonial .tombol-geser .kanan {
+  position: absolute;
+  right: 45%;
 }
 
-#main .card-testi {
+#main #testimonial .tombol-geser .kanan button {
+  width: 120%;
+  border-radius: 999px;
+}
+
+#main #testimonial .tombol-geser .kiri {
+  position: absolute;
+  left: 45%;
+}
+
+#main #testimonial .tombol-geser .kiri button {
+  width: 80%;
+  border-radius: 999px;
+}
+
+#main #testimonial .testi-container {
   position: relative;
   border-radius: 8px;
-  width: 619px;
+  height: 217px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+#main #testimonial .testi-container .profil {
+  position: absolute;
+  top: 20%;
+  left: 5%;
+}
+
+#main #testimonial .testi-container .data .rate {
+  position: absolute;
+  width: 80px;
+  top: 10%;
+  left: 30%;
+}
+
+#main #testimonial .testi-container .data p {
+  position: absolute;
+  top: 20%;
+  left: 30%;
+}
+
+#main #testimonial .testi-container .data .data-profil {
+  font-weight: bold;
+  position: absolute;
+  top: 70%;
+  left: 30%;
+}
+
+#main #lokasi .lokasi-card {
+  background-color: darkblue;
+  border-radius: 13px;
+  height: 326px;
 }
 
 #main .faq-card button {
